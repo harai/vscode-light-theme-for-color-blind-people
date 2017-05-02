@@ -1,0 +1,23 @@
+{
+    "name": "light-theme-for-color-blind-people",
+    "displayName": "Light Theme for Color Blind People",
+    "description": "Light theme for color blind people",
+    "version": "0.0.1",
+    "publisher": "harai",
+    "engines": {
+        "vscode": "^1.11.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "images/icon.png",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Light Theme for Color Blind People",
+                "uiTheme": "vs",
+                "path": "./themes/colorblind.tmTheme"
+            }
+        ]
+    }
+}
